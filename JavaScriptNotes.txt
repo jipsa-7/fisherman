@@ -1,0 +1,22 @@
+Math.random()--> Generates random numbers
+Math.pow(base,exponent)--> to calculate raise a number to a powerM( 2^2,  5^3 etc) 
+Math.round(number)--> to round a number to nearest whole number.
+Math.floor(number)--> to round down to the nearest whole number less than or equal to the given number.
+
+var a=[]; 
+var a=[1,2,3];  array declaration.
+a.includes(item)  -->built in function to check whether an item is included in the array. It returns true or false.
+a.push(4)--> builtin array function to insert an element in an array in the last position.
+a.pop()--> builtin array function to remove the last item from an array.
+Math.random()-->built in function to create a random number ranging from 0 to 0.9999
+Math.floor()--> built in function to round down a decimal point number.
+a.length--> to get the length of an array(no:of items in an array).
+
+
+document.getElementsByTagName("li")[2].style.color="purple";----> getElements is plural so that means it is going to get back an array. document.getElementsByTagName("li") gives array of list elements and sets the list element at 2nd position as purple.
+
+document.getElementsByClassName----->It allows you to select elements by their class name. getElements is plural so that means it is going to get back an array.so we must give square brackets and position to access a particular element. Even if there is only one element in that class we need to specify that.document.getElementsByClassName("btn")[0].style.color="red";
+
+document.getElementById("title").innerHTML="Hello"; ---> get element by id is singular so we are going to get a single value. so need of square brackets and positions.
+
+document.querySelector()--->It will only returns a single item. the string that we are writing inside the parantheses is a selector. selector is name of the element, id (#id), class (.classname)or combining them just like css selectors( element, id (#id), class (.classname)or combining them). document.querySelector("h1"),document.querySelector(".")
